@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Reading a particular file, with no header\
+M -array(data of file)\
+Y_trn = M[:, 0] - all the lows from beginning to end ONLY for column 0\
+ X_trn = M[;,1:] - all the lows from beginning to end for columns 1 to last.\
+\
+Same with yTst and xTst\
+\
+Decision tree - Dictionary\
+\
+Graphviz should be downloaded in python package\
+\
+Id3 Routine\
+- Slightly is different than in Chp 3 of Tom Mitchell\
+- Construct only binary tree\
+- E(y) - [no of true/total num * E(+ve, -ve) + no of false/total num * E(+ve, -ve) ]\
+- Call id3 recursively 2 times for attr- value pair\
+}
